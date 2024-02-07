@@ -1,4 +1,4 @@
-#Todo List App
+# Todo List App
 
 Description: Welcome to our Todo List App – your go-to tool for organizing tasks efficiently! This user-friendly application allows you to effortlessly manage your daily tasks, set priorities, and track your progress. With features like task completion status, priority levels, and a simple yet powerful interface, staying on top of your to-do list has never been this seamless. Add, edit, and delete tasks with ease, and enjoy the convenience of persistence across sessions. Whether you're a meticulous planner or someone who loves spontaneity, our Todo List App adapts to your unique workflow, helping you achieve your goals, one task at a time.
 
