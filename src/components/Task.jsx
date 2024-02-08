@@ -1,6 +1,7 @@
 import  { useState } from 'react';
 import { MdDelete } from "react-icons/md";
 import { LuClipboardEdit } from "react-icons/lu";
+import { RiSave3Line } from "react-icons/ri";
 // import { IoMdClose } from "react-icons/io";
 
 const Task = ({ task, toggleTaskStatus,index, deleteTask, editTask }) => {
@@ -33,9 +34,9 @@ const Task = ({ task, toggleTaskStatus,index, deleteTask, editTask }) => {
       ) 
 
     : (
-        <form onSubmit={handleEditSubmit}>
-          <input   type="text" value={editedText} onChange={(e) => setEditedText(e.target.value)}  />
-          <button type="submit">Save</button>
+        <form onSubmit={handleEditSubmit} className='flex gap-2 items-center'>
+          <input className='outline-none  px-2 text-black '   type="text" value={editedText} onChange={(e) => setEditedText(e.target.value)}  />
+          <button className='px-2  text-2xl hover:text-red-400' type="submit"><RiSave3Line></RiSave3Line></button>
         </form>
       )}
 
